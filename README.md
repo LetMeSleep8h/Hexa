@@ -328,6 +328,7 @@ All colonisation numbers are in `hexa/colony/rules.py`.
 | File | What it does |
 |---|---|
 | `play.py` | Starts the game: menu, then the conquest window (mouse, keyboard, enemy turn timing) |
+| `hexa/cli.py` | Parses command-line options without pygame |
 | `hexa/menu.py` | The start menu |
 | `hexa/campaign/` | Age of Discovery: `geo.py` (real map, countries, markets, rivers), `randomgeo.py` (random worlds), `wfc.py` (wave function collapse), `art.py` (code-drawn tiles, figures, tokens), `data.py` (goods, buildings, balance), `world.py` (economy, trade, colonies, war), `ai.py`, `mapview.py`, `app.py` |
 | `hexa/colony/` | Colonisation mode: `rules.py`, `mapgen.py`, `world.py` (rules), `ai.py` (rivals, natives, royal army), `render.py`, `app.py` (window) |
